@@ -1,0 +1,17 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>Compose — Ecoserve Mail</title>
+  <link rel="stylesheet" href="assets/styles.css" />
+</head>
+<body>
+  <header><h2>Compose Message</h2></header>
+  <form onsubmit="sendMessage(event)">
+    <input placeholder="Subject" id="subject" required/><br>
+    <textarea placeholder="Message" id="body" required></textarea><br>
+    <button type="submit">Send</button>
+  </form>
+  <script src="assets/script.js"></script>
+</body>
+</html>
